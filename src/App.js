@@ -1,10 +1,16 @@
 import "./styles.css";
+import Greeting from "./Greeting.js";
+import Button from "./Button.js";
+import Counter from "./state.js";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Button />
+      <Greeting name="Madhavan" />
+      <Greeting name="Maddy" />
+      <Button />
+      <Counter />
     </div>
   );
 }

@@ -1,8 +1,5 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Greeting from "./Greeting.js";
-import Button from "./Button.js";
-
 import App from "./App";
 
 const rootElement = document.getElementById("root");
@@ -11,10 +8,6 @@ const root = createRoot(rootElement);
 root.render(
   <StrictMode>
     <App />
-    <Button />
-    <Greeting name ="Madhavan"/>
-    <Greeting name ="Maddy"/>
-    <Button />
   </StrictMode>
 );
 
@@ -41,3 +34,10 @@ root.render(
 // Props helps to pass dynamic data to child components.
 // Props are read  only (Cannot be modified inside the Child Component)
 // multiple 
+
+// Hooks :
+
+// 1. USESTATE : is a react hook that allows a function component to have
+// a state (dynamic data that can change)
+// In simple terms usestate stores a data that can change over time , and
+// React updates the UI when it changes .
