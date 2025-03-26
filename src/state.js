@@ -16,3 +16,8 @@ const Counter = () => {
   );
 };
 export default Counter;
+
+//Normal Javascript Counter :Uses regular variable ( let Count = 0 )
+//Not reactive (UI doesn't update automatically)
+//Uses DOM to manually update the UI
+//UI Wont be re-render when count changes.
