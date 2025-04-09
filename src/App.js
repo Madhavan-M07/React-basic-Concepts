@@ -7,6 +7,7 @@ import Getter from "./hookeff.js";
 import Refer from "./hookref.js";
 import ButtonClick from "./EventClick.js"
 import LoginToggle from "./Conditional.js"
+import UsingFetch from "./inbuilt.js"
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <Refer />
       <ButtonClick/>
       <LoginToggle />
+      <UsingFetch />
     </div>
   );
 }
